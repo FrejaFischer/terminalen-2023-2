@@ -39,7 +39,9 @@ _Julie_
 Hvis din main Node.js applikationsfil er navn.js, så kan man kalde den ved at skrive: node navn.js.
 
 
-`live-server` Katrine
+`live-server`
+
+Starter live-server
 
 ## npm kommandoer
 
