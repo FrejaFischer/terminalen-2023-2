@@ -48,6 +48,19 @@ npm run dev
 
 `npx create-next-app@latest`
 
+Sådan installerer vi Next. Den kommer med en lang række spørgsmål hvor vi skal tage stilling
+1. hvad skal dit projekt hedde (giv det et navn)
+2. Vil du bruge typescript (nej!)
+3. ESLint? (Ja)
+4. Tailwind (valgfrit)
+5. `src/` directory? (ja)
+6. `App router` (ja)
+7. customize defauklt import alias? (nej)
+
+SÅ er dit projekt oprettet og du kan sige
+`cd mit-projekt`, `code .`, `npm run dev`
+
+
 JACOB tager tailwind
 
 
