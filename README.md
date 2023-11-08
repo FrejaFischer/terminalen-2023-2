@@ -42,7 +42,8 @@ npm run dev
 `npm run build` Magnus Madsen
 
 ## framework kommandoer
-### Kommando til at installere nyt React/Vite projekt
+Kommando til at installere nyt React/Vite projekt:
+
 `npm create vite@latest`  Marie
 
 `npm create astro@latest` 
