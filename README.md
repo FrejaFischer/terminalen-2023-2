@@ -22,7 +22,7 @@ npm run dev
 ## Generelle kommandoer
 `cd` Anders
 
-`pwd` Emma
+`pwd` er en forkortelse for print working directory. Den viser hvilken mappe man står i. (https://www.ibm.com/docs/he/aix/7.1?topic=p-pwd-command)
 
 `ls` Freja
 
