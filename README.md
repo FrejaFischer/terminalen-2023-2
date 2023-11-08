@@ -53,7 +53,16 @@ Når du kører denne kommando i din terminal, starter du en local server/ live s
 `npm run build` Magnus Madsen
 
 ## framework kommandoer
-`npm create vite@latest` Marie
+Kommando til at installere nyt React/Vite projekt:
+
+`npm create vite@latest`  Marie
+
+1. skriv hvad dit projekt skal hedde
+2. Select hvilket framework du vil bruge
+3. Select en variant
+4. Kør cd "navn på projekt"
+5. Kør npm install
+6. Kør npm run dev
 
 ### `npm create astro@latest` 
 
