@@ -31,7 +31,7 @@ npm run dev
 
 `node navn.js` Julie
 
-`live-server` Katrine
+`live-server` : starter live-server
 
 ## npm kommandoer
 
