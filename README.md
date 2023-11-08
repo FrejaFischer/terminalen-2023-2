@@ -35,7 +35,8 @@ npm run dev
 
 ## npm kommandoer
 
-`npm run dev` Lasse
+`npm run dev` 
+Når du kører denne kommando i din terminal, starter du en local server/ live server så du kan se hvad du har kodet. Den opdaterer som du gemmer dit projekt.
 
 `npm install` Magnus J
 
