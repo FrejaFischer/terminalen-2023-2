@@ -61,7 +61,7 @@ Så kort sagt er `npm install` kommandoen, en der hjælper med at hente og insta
 
 ### `npm run build`
 
-`npm run build` bygger en optimeret version af dit endelige projekt/app der kan deployes hos en host. Koden fra frameworket bliver oversat til noget, som browserne kan forstå. De forskellige frameworks/librarys gør det på lidt forskellige måder, men alle med samme mål. 
+`npm run build` bygger en optimeret version af dit endelige projekt/app der kan deployes hos en host. Koden fra frameworket bliver oversat til noget, som browserne kan forstå. De forskellige frameworks/libraries gør det på lidt forskellige måder, men alle med samme mål. 
 
 ## framework kommandoer
 
