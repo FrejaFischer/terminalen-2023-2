@@ -12,6 +12,13 @@ ol
 2. item 2
 2. item 3
 
+variabler ryger i `backticks` 
+
+```
+npm install
+npm run dev
+```
+
 ## Generelle kommandoer
 
 ## npm kommandoer
