@@ -40,6 +40,9 @@ Starter live-server
 ### `npm run dev` 
 Når du kører denne kommando i din terminal, starter du en local server/ live server så du kan se hvad du har kodet. Den opdaterer som du gemmer dit projekt.
 
+### `npm start` (`npm run start`)
+En kommando der giver os live-server (`npm run dev`) men på det byggede output, så tættere på hvad vi ser på eks Vercel
+
 ### `npm install`
 
 
