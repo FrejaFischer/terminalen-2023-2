@@ -1,18 +1,22 @@
- # terminalen-2023-2
+
+# terminalen-2023-2
+
 Vi skal skrive markdown (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-https://astro.build 
+https://astro.build
 
 ul
+
 - item 1
 - item 2
 
 ol
+
 1. item 1
 2. item 2
-2. item 3
+3. item 3
 
-når du vil have en live server skal du skrive `npm run dev` 
+når du vil have en live server skal du skrive `npm run dev`
 
 ```bash
 npm install
@@ -20,6 +24,7 @@ npm run dev
 ```
 
 ## Generelle kommandoer
+
 `cd` Anders
 
 `pwd` er en forkortelse for print working directory. Den viser hvilken mappe man står i. (https://www.ibm.com/docs/he/aix/7.1?topic=p-pwd-command)
@@ -29,6 +34,7 @@ ls er en kommando i terminalen, der vil vise dig indholdet i den mappe du befind
 Det er en måde at orientere sig på, og finde de muligheder man har for at bevæge sig videre eller udvælge en fil.
 
 ## life hacks
+
 `code .` Hannibal
 "code" er en reference til editoren(vscode) og "." betyder nuværende mappe. Dermed betyder: `code .` åben din editor i den mappe du/terminalen befinder dig/sig i. 
 
@@ -49,6 +55,18 @@ Starter live-server
 Når du kører denne kommando i din terminal, starter du en local server/ live server så du kan se hvad du har kodet. Den opdaterer som du gemmer dit projekt.
 
 `npm install` Magnus J
+
+
+- Når man kører npm install, tjekker npm automatisk projektmappen for en fil kaldet package.json, der indeholder information om de softwarepakker, som applikationen er afhængig af. Derefter downloader og installerer det de specificerede pakker og deres afhængigheder i en mappe kaldet node_modules i projektmappen.
+  Så kort sagt er npm install kommandoen, der hjælper med at hente og installere de nødvendige biblioteker og afhængigheder til Node.js-applikationen, baseret på oplysningerne i package.json-filen.
+
+`npm run build` Magnus Madsen
+
+## framework kommandoer
+
+`npm create vite@latest` Marie
+
+`npm create astro@latest`
 
 `npm run build` Magnus Madsen: 
 ##### npm run build bygger en optimeret version af dit endelige projekt/app til oplæggelse hos en host. Samt bliver koden fra frameworket oversat til noget, som browserne kan forstå. De forskellige frameworks/librarys gør det på lidt forskellige måder, men alle med samme mål. 
@@ -102,12 +120,12 @@ SÅ er dit projekt oprettet og du kan sige
 
 `postcss` bruges til at behandle og optimere CSS.
 
+
 `autoprefixer` er endnu en pakke der sørger for at din Tailwind CSS virker i forskellige browsere.
+
 
 `npx tailwindcss init -p`
  Bruges til at generere tailwind.config.js og postcss.config.js filerne.
-
-
 
 
 
