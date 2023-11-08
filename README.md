@@ -20,7 +20,29 @@ npm run dev
 ```
 
 ## Generelle kommandoer
+`cd`
+`pwd`
+`ls`
+
+## life hacks
+`code .` 
+`node navn.js`
+`live-server`
 
 ## npm kommandoer
 
+`npm run dev`
+
+`npm install`
+
 ## framework kommandoer
+`npm create vite@latest`
+
+"astro"
+
+"next"
+
+
+
+
+
