@@ -3,80 +3,57 @@
 
 Vi skal skrive markdown (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-https://astro.build
-
-ul
-
-- item 1
-- item 2
-
-ol
-
-1. item 1
-2. item 2
-3. item 3
-
-når du vil have en live server skal du skrive `npm run dev`
-
-```bash
-npm install
-npm run dev
-```
-
 ## Generelle kommandoer
 
 
-`cd` Anders - `cd` står for "change directory" - at skifte mappe. så den bruges til at ændre den aktuelle arbejdsmappe i dit terminal vindue. Hvis du skriver `cd` efterfulgt af din angivne mappe, ændrer du den aktuelle placering, hvor dine fremtidige kommandoer vil blive udført.
+### `cd` 
+`cd` står for "change directory" - at skifte mappe. så den bruges til at ændre den aktuelle arbejdsmappe i dit terminal vindue. Hvis du skriver `cd` efterfulgt af din angivne mappe, ændrer du den aktuelle placering, hvor dine fremtidige kommandoer vil blive udført.
 
 f.eks. `cd` dokumenter. Du kan også bruge `..` til at gå tilbage til den overordnet
 mappe (`cd ..`) og for at gå tilbage til den forrige mappe skal du bruge (`cd -`) eller selv angive en absolut sti til en
 bestemt mappe f.eks. cd/dokumenter/ferie2024/toDoApp
 
-`pwd` er en forkortelse for print working directory. Den viser hvilken mappe man står i. (https://www.ibm.com/docs/he/aix/7.1?topic=p-pwd-command)
+### `pwd` er en forkortelse for print working directory. Den viser hvilken mappe man står i. (https://www.ibm.com/docs/he/aix/7.1?topic=p-pwd-command)
 
-`ls`
+### `ls`
 ls er en kommando i terminalen, der vil vise dig indholdet i den mappe du befinder dig i, i form af en liste.
 Det er en måde at orientere sig på, og finde de muligheder man har for at bevæge sig videre eller udvælge en fil.
 
 ## life hacks
 
-`code .` Hannibal
+### `code .`
 "code" er en reference til editoren(vscode) og "." betyder nuværende mappe. Dermed betyder: `code .` åben din editor i den mappe du/terminalen befinder dig/sig i. 
 
 ### `node navn.js`
-_Julie_
 
 **Meaning:** den typiske måde at køre et Node.js program, er ved at køre den globale kommando (når man har installeret Node.js), og så indskriver man navnet på filen, man ønsker at eksekvere.
 Hvis din main Node.js applikationsfil er navn.js, så kan man kalde den ved at skrive: node navn.js.
 
 
-`live-server`
+### `live-server`
 
 Starter live-server
 
 ## npm kommandoer
 
-`npm run dev` 
+### `npm run dev` 
 Når du kører denne kommando i din terminal, starter du en local server/ live server så du kan se hvad du har kodet. Den opdaterer som du gemmer dit projekt.
 
-`npm install` Magnus J
+### `npm install`
 
 
 - Når man kører npm install, tjekker npm automatisk projektmappen for en fil kaldet package.json, der indeholder information om de softwarepakker, som applikationen er afhængig af. Derefter downloader og installerer det de specificerede pakker og deres afhængigheder i en mappe kaldet node_modules i projektmappen.
   Så kort sagt er npm install kommandoen, der hjælper med at hente og installere de nødvendige biblioteker og afhængigheder til Node.js-applikationen, baseret på oplysningerne i package.json-filen.
 
-`npm run build` Magnus Madsen
+
+### `npm run build`
+
+npm run build bygger en optimeret version af dit endelige projekt/app til oplæggelse hos en host. Samt bliver koden fra frameworket oversat til noget, som browserne kan forstå. De forskellige frameworks/librarys gør det på lidt forskellige måder, men alle med samme mål. 
 
 ## framework kommandoer
 
-`npm run build` Magnus Madsen: 
-##### npm run build bygger en optimeret version af dit endelige projekt/app til oplæggelse hos en host. Samt bliver koden fra frameworket oversat til noget, som browserne kan forstå. De forskellige frameworks/librarys gør det på lidt forskellige måder, men alle med samme mål. 
-
-## framework kommandoer
+### `npm create vite@latest`
 Kommando til at installere nyt React/Vite projekt:
-
-`npm create vite@latest`  Marie
-
 1. skriv hvad dit projekt skal hedde
 2. Select hvilket framework du vil bruge
 3. Select en variant
@@ -112,7 +89,7 @@ SÅ er dit projekt oprettet og du kan sige
 `cd mit-projekt`, `code .`, `npm run dev`
 
 
-`npm install -D tailwindcss postcss autoprefixer`
+### `npm install -D tailwindcss postcss autoprefixer`
 
 
 `-D` betyder at den pakke der installeres skal gemmes som en dependency og skal bruges i et byggemiljø, men er ikke nødvendigt i et produktionsmiljø.
