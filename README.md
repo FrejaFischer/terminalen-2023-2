@@ -9,9 +9,9 @@ Vi skal skrive markdown (https://github.com/adam-p/markdown-here/wiki/Markdown-C
 ### `cd` 
 `cd` står for "change directory" - at skifte mappe. så den bruges til at ændre den aktuelle arbejdsmappe i dit terminal vindue. Hvis du skriver `cd` efterfulgt af din angivne mappe, ændrer du den aktuelle placering, hvor dine fremtidige kommandoer vil blive udført.
 
-f.eks. `cd` dokumenter. Du kan også bruge `..` til at gå tilbage til den overordnet
-mappe (`cd ..`) og for at gå tilbage til den forrige mappe skal du bruge (`cd -`) eller selv angive en absolut sti til en
-bestemt mappe f.eks. cd/dokumenter/ferie2024/toDoApp
+f.eks. `cd dokumenter`. Du kan også bruge `..` til at gå tilbage til den overordnede
+mappe (`cd ..`) eller selv angive en absolut sti til en
+bestemt mappe f.eks. `cd /dokumenter/ferie2024/toDoApp`
 
 ### `clear`
 Ryder terminalen
