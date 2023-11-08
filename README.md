@@ -39,12 +39,15 @@ npm run dev
 
 `npm install`
 
+`npm run build`
+
 ## framework kommandoer
 `npm create vite@latest`
 
-"astro"
+`npm create astro@latest`
 
-"next"
+`npx create-next-app@latest`
+
 
 
 
