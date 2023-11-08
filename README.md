@@ -54,24 +54,24 @@ En kommando der giver os live-server (`npm run dev`) men på det byggede output,
 Skal stoppes igen, og det gør du med `Ctrl + c`
 
 ### `npm install`
-- Når man kører npm install, tjekker npm automatisk projektmappen for en fil kaldet package.json, der indeholder information om de softwarepakker, som applikationen er afhængig af. Derefter downloader og installerer det de specificerede pakker og deres afhængigheder i en mappe kaldet node_modules i projektmappen.
-  Så kort sagt er npm install kommandoen, der hjælper med at hente og installere de nødvendige biblioteker og afhængigheder til Node.js-applikationen, baseret på oplysningerne i package.json-filen.
+Når man kører `npm install`, tjekker npm automatisk projektmappen for en fil kaldet `package.json`, der indeholder information om de softwarepakker, som applikationen er afhængig af. Derefter downloader og installerer den de specificerede pakker og deres afhængigheder i en mappe kaldet `node_modules` i projektmappen.
+
+Så kort sagt er `npm install` kommandoen, en der hjælper med at hente og installere de nødvendige biblioteker og afhængigheder til Node.js-applikationen, baseret på oplysningerne i package.json-filen.
 
 
 ### `npm run build`
 
-npm run build bygger en optimeret version af dit endelige projekt/app til oplæggelse hos en host. Samt bliver koden fra frameworket oversat til noget, som browserne kan forstå. De forskellige frameworks/librarys gør det på lidt forskellige måder, men alle med samme mål. 
+`npm run build` bygger en optimeret version af dit endelige projekt/app der kan deployes hos en host. Koden fra frameworket bliver oversat til noget, som browserne kan forstå. De forskellige frameworks/librarys gør det på lidt forskellige måder, men alle med samme mål. 
 
 ## framework kommandoer
 
 ### `npm create vite@latest`
-Kommando til at installere nyt React/Vite projekt:
-1. skriv hvad dit projekt skal hedde
-2. Select hvilket framework du vil bruge
-3. Select en variant
-4. Kør cd "navn på projekt"
-5. Kør npm install
-6. Kør npm run dev
+Kommando til at installere nyt React/Vite/Svelte etc projekt:
+1. skriv hvad dit projekt skal hedde (giv dit projekt/mappe et navn)
+2. Vælg hvilket framework du vil bruge (For os, Vanilla eller React)
+3. Vælg en variant (JavaScript)
+
+Så er projektet klart, `cd my-project`, `npm install`, `code .`, `npm run dev`
 
 ### `npm create astro@latest` 
 
@@ -95,7 +95,7 @@ Sådan installerer vi Next. Den kommer med en lang række spørgsmål hvor vi sk
 4. Tailwind (valgfrit)
 5. `src/` directory? (ja)
 6. `App router` (ja)
-7. customize defauklt import alias? (nej)
+7. "customize default import alias"? (nej)
 
 SÅ er dit projekt oprettet og du kan sige
 `cd mit-projekt`, `code .`, `npm run dev`
@@ -103,15 +103,17 @@ SÅ er dit projekt oprettet og du kan sige
 
 ### `npm install -D tailwindcss postcss autoprefixer`
 
+Se den fulde forklaring: https://tailwindcss.com/docs/guides/vite
 
-`-D` betyder at den pakke der installeres skal gemmes som en dependency og skal bruges i et byggemiljø, men er ikke nødvendigt i et produktionsmiljø.
+#### Forklaring af kommandoerne
+
+`-D` betyder at den pakke der installeres skal gemmes som en dependency og skal bruges i et byggemiljø, men er ikke nødvendigt i et produktionsmiljø. (det samme som `npm install --save-dev`)
 
 `tailwindcss` er et CSS framework.
 
 `postcss` bruges til at behandle og optimere CSS.
 
 `autoprefixer` er endnu en pakke der sørger for at din Tailwind CSS virker i forskellige browsere.
-
 
 `npx tailwindcss init -p`
  Bruges til at generere tailwind.config.js og postcss.config.js filerne.
