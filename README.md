@@ -25,7 +25,12 @@ npm run dev
 
 ## Generelle kommandoer
 
-`cd` Anders
+
+`cd` Anders - `cd` står for "change directory" - at skifte mappe. så den bruges til at ændre den aktuelle arbejdsmappe i dit terminal vindue. Hvis du skriver `cd` efterfulgt af din angivne mappe, ændrer du den aktuelle placering, hvor dine fremtidige kommandoer vil blive udført.
+
+f.eks. `cd` dokumenter. Du kan også bruge `..` til at gå tilbage til den overordnet
+mappe (`cd ..`) og for at gå tilbage til den forrige mappe skal du bruge (`cd -`) eller selv angive en absolut sti til en
+bestemt mappe f.eks. cd/dokumenter/ferie2024/toDoApp
 
 `pwd` er en forkortelse for print working directory. Den viser hvilken mappe man står i. (https://www.ibm.com/docs/he/aix/7.1?topic=p-pwd-command)
 
@@ -63,10 +68,6 @@ Når du kører denne kommando i din terminal, starter du en local server/ live s
 `npm run build` Magnus Madsen
 
 ## framework kommandoer
-
-`npm create vite@latest` Marie
-
-`npm create astro@latest`
 
 `npm run build` Magnus Madsen: 
 ##### npm run build bygger en optimeret version af dit endelige projekt/app til oplæggelse hos en host. Samt bliver koden fra frameworket oversat til noget, som browserne kan forstå. De forskellige frameworks/librarys gør det på lidt forskellige måder, men alle med samme mål. 
@@ -120,13 +121,8 @@ SÅ er dit projekt oprettet og du kan sige
 
 `postcss` bruges til at behandle og optimere CSS.
 
-
 `autoprefixer` er endnu en pakke der sørger for at din Tailwind CSS virker i forskellige browsere.
 
 
 `npx tailwindcss init -p`
  Bruges til at generere tailwind.config.js og postcss.config.js filerne.
-
-
-
-
