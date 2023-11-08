@@ -24,7 +24,9 @@ npm run dev
 
 `pwd` Emma
 
-`ls` Freja
+`ls`
+ls er en kommando i terminalen, der vil vise dig indholdet i den mappe du befinder dig i, i form af en liste.
+Det er en måde at orientere sig på, og finde de muligheder man har for at bevæge sig videre eller udvælge en fil.
 
 ## life hacks
 `code .` Hannibal
