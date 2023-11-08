@@ -46,7 +46,31 @@ npm run dev
 
 `npm create astro@latest` 
 
+Sådan installerer du Astro.
+Den kommer med en række spørgsmål vi skal tage stilling til:
+1. hvad skal dit projekt (mappe) hedder (bare vælg et navn)
+2. Vil du have starter filer? (jeg tager som regel "sample files")
+3. skal jeg køre npm install for dig? (ja tak)
+4. Vil du bruge typescript? (nej)
+5. Skal jeg sætte git op? (valgfrit)
+
+Så er projektet klart, `cd my-project`, `code .`, `npm run dev`
+
+
 `npx create-next-app@latest`
+
+Sådan installerer vi Next. Den kommer med en lang række spørgsmål hvor vi skal tage stilling
+1. hvad skal dit projekt hedde (giv det et navn)
+2. Vil du bruge typescript (nej!)
+3. ESLint? (Ja)
+4. Tailwind (valgfrit)
+5. `src/` directory? (ja)
+6. `App router` (ja)
+7. customize defauklt import alias? (nej)
+
+SÅ er dit projekt oprettet og du kan sige
+`cd mit-projekt`, `code .`, `npm run dev`
+
 
 JACOB tager tailwind
 
