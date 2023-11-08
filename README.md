@@ -58,6 +58,8 @@ Når man kører `npm install`, tjekker npm automatisk projektmappen for en fil k
 
 Så kort sagt er `npm install` kommandoen, en der hjælper med at hente og installere de nødvendige biblioteker og afhængigheder til Node.js-applikationen, baseret på oplysningerne i package.json-filen.
 
+Husk at køre `npm install` når du har clonet et projekt med en package.json
+
 
 ### `npm run build`
 
