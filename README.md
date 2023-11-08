@@ -12,7 +12,7 @@ ol
 2. item 2
 2. item 3
 
-variabler ryger i `backticks` 
+når du vil have en live server skal du skrive `npm run dev` 
 
 ```bash
 npm install
