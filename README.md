@@ -49,13 +49,13 @@ npm run dev
 `npx create-next-app@latest`
 
 `npm install -D tailwindcss postcss autoprefixer`
-`**-D**` betyder at den pakke der installeres skal gemmes som en dependency og skal bruges i et byggemiljø, men er ikke nødvendigt i et produktionsmiljø.
+`-D` betyder at den pakke der installeres skal gemmes som en dependency og skal bruges i et byggemiljø, men er ikke nødvendigt i et produktionsmiljø.
 
-`**tailwindcss**` er et CSS framework.
+`tailwindcss` er et CSS framework.
 
-`**postcss**` bruges til at behandle og optimere CSS.
+`postcss` bruges til at behandle og optimere CSS.
 
-`**autoprefixer**` er endnu en pakke der sørger for at din Tailwind CSS virker i forskellige browsere.
+`autoprefixer` er endnu en pakke der sørger for at din Tailwind CSS virker i forskellige browsere.
 
 `npx tailwindcss init -p`
  Bruges til at generere tailwind.config.js og postcss.config.js filerne.
