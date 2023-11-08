@@ -13,7 +13,8 @@ f.eks. `cd` dokumenter. Du kan også bruge `..` til at gå tilbage til den overo
 mappe (`cd ..`) og for at gå tilbage til den forrige mappe skal du bruge (`cd -`) eller selv angive en absolut sti til en
 bestemt mappe f.eks. cd/dokumenter/ferie2024/toDoApp
 
-### `pwd` er en forkortelse for print working directory. Den viser hvilken mappe man står i. (https://www.ibm.com/docs/he/aix/7.1?topic=p-pwd-command)
+### `pwd` 
+... er en forkortelse for print working directory. Den viser hvilken mappe man står i. (https://www.ibm.com/docs/he/aix/7.1?topic=p-pwd-command)
 
 ### `ls`
 ls er en kommando i terminalen, der vil vise dig indholdet i den mappe du befinder dig i, i form af en liste.
