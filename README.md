@@ -44,7 +44,7 @@ npm run dev
 ## framework kommandoer
 `npm create vite@latest` Marie
 
-`npm create astro@latest` 
+### `npm create astro@latest` 
 
 Sådan installerer du Astro.
 Den kommer med en række spørgsmål vi skal tage stilling til:
@@ -57,7 +57,7 @@ Den kommer med en række spørgsmål vi skal tage stilling til:
 Så er projektet klart, `cd my-project`, `code .`, `npm run dev`
 
 
-`npx create-next-app@latest`
+### `npx create-next-app@latest`
 
 Sådan installerer vi Next. Den kommer med en lang række spørgsmål hvor vi skal tage stilling
 1. hvad skal dit projekt hedde (giv det et navn)
