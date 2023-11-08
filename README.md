@@ -21,12 +21,16 @@ npm run dev
 
 ## Generelle kommandoer
 `cd`
+
 `pwd`
+
 `ls`
 
 ## life hacks
 `code .` 
+
 `node navn.js`
+
 `live-server`
 
 ## npm kommandoer
