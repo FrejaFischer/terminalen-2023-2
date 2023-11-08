@@ -50,6 +50,7 @@ npm run dev
 
 `npm install -D tailwindcss postcss autoprefixer`
 
+
 `-D` betyder at den pakke der installeres skal gemmes som en dependency og skal bruges i et byggemiljø, men er ikke nødvendigt i et produktionsmiljø.
 
 `tailwindcss` er et CSS framework.
