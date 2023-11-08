@@ -22,9 +22,11 @@ npm run dev
 ## Generelle kommandoer
 `cd` Anders
 
-`pwd` Emma
+`pwd` er en forkortelse for print working directory. Den viser hvilken mappe man står i. (https://www.ibm.com/docs/he/aix/7.1?topic=p-pwd-command)
 
-`ls` Freja
+`ls`
+ls er en kommando i terminalen, der vil vise dig indholdet i den mappe du befinder dig i, i form af en liste.
+Det er en måde at orientere sig på, og finde de muligheder man har for at bevæge sig videre eller udvælge en fil.
 
 ## life hacks
 `code .` Hannibal
@@ -46,7 +48,7 @@ Starter live-server
 ## framework kommandoer
 `npm create vite@latest` Marie
 
-`npm create astro@latest` 
+### `npm create astro@latest` 
 
 Sådan installerer du Astro.
 Den kommer med en række spørgsmål vi skal tage stilling til:
@@ -59,7 +61,7 @@ Den kommer med en række spørgsmål vi skal tage stilling til:
 Så er projektet klart, `cd my-project`, `code .`, `npm run dev`
 
 
-`npx create-next-app@latest`
+### `npx create-next-app@latest`
 
 Sådan installerer vi Next. Den kommer med en lang række spørgsmål hvor vi skal tage stilling
 1. hvad skal dit projekt hedde (giv det et navn)
