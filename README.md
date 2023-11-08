@@ -39,7 +39,8 @@ npm run dev
 
 `npm install` Magnus J
 
-`npm run build` Magnus Madsen
+`npm run build` Magnus Madsen: 
+##### npm run build bygger en optimeret version af dit projekt/app til oplæggelse hos en host. Samt bliver koden fra frameworket oversat til noget, som browserne kan forstå. De forskellige frameworks/librarys gør det på lidt forskellige måder, men alle med samme mål. 
 
 ## framework kommandoer
 `npm create vite@latest` Marie
