@@ -50,7 +50,8 @@ Når du kører denne kommando i din terminal, starter du en local server/ live s
 
 `npm install` Magnus J
 
-`npm run build` Magnus Madsen
+`npm run build` Magnus Madsen: 
+##### npm run build bygger en optimeret version af dit endelige projekt/app til oplæggelse hos en host. Samt bliver koden fra frameworket oversat til noget, som browserne kan forstå. De forskellige frameworks/librarys gør det på lidt forskellige måder, men alle med samme mål. 
 
 ## framework kommandoer
 Kommando til at installere nyt React/Vite projekt:
