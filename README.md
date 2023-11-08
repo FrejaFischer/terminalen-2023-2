@@ -20,33 +20,35 @@ npm run dev
 ```
 
 ## Generelle kommandoer
-`cd`
+`cd` Anders
 
-`pwd`
+`pwd` Emma
 
-`ls`
+`ls` Freja
 
 ## life hacks
-`code .` 
+`code .` Hannibal
 
-`node navn.js`
+`node navn.js` Julie
 
-`live-server`
+`live-server` Katrine
 
 ## npm kommandoer
 
-`npm run dev`
+`npm run dev` Lasse
 
-`npm install`
+`npm install` Magnus J
 
-`npm run build`
+`npm run build` Magnus Madsen
 
 ## framework kommandoer
-`npm create vite@latest`
+`npm create vite@latest` Marie
 
-`npm create astro@latest`
+`npm create astro@latest` 
 
 `npx create-next-app@latest`
+
+JACOB tager tailwind
 
 
 
