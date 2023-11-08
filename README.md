@@ -30,6 +30,7 @@ Det er en måde at orientere sig på, og finde de muligheder man har for at bev�
 
 ## life hacks
 `code .` Hannibal
+"code" er en reference til editoren(vscode) og "." betyder nuværende mappe. Dermed betyder: `code .` åben din editor i den mappe du/terminalen befinder dig/sig i. 
 
 `node navn.js` Julie
 
@@ -76,7 +77,19 @@ SÅ er dit projekt oprettet og du kan sige
 `cd mit-projekt`, `code .`, `npm run dev`
 
 
-JACOB tager tailwind
+`npm install -D tailwindcss postcss autoprefixer`
+
+
+`-D` betyder at den pakke der installeres skal gemmes som en dependency og skal bruges i et byggemiljø, men er ikke nødvendigt i et produktionsmiljø.
+
+`tailwindcss` er et CSS framework.
+
+`postcss` bruges til at behandle og optimere CSS.
+
+`autoprefixer` er endnu en pakke der sørger for at din Tailwind CSS virker i forskellige browsere.
+
+`npx tailwindcss init -p`
+ Bruges til at generere tailwind.config.js og postcss.config.js filerne.
 
 
 
