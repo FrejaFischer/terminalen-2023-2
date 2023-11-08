@@ -28,6 +28,7 @@ npm run dev
 
 ## life hacks
 `code .` Hannibal
+"code" er en reference til editoren(vscode) og "." betyder nuværende mappe. Dermed betyder: `code .` åben din editor i den mappe du/terminalen befinder dig/sig i. 
 
 `node navn.js` Julie
 
