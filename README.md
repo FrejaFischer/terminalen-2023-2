@@ -1,4 +1,4 @@
-# terminalen-2023-2
+ # terminalen-2023-2
 Vi skal skrive markdown (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 https://astro.build 
@@ -31,6 +31,7 @@ npm run dev
 
 ### `node navn.js`
 _Julie_
+
 **Meaning:** den typiske måde at køre et Node.js program, er ved at køre den globale command (når man har installeret Node.js), og så indskriver man navnet på filen, man ønsker at eksekvere.
 Hvis din main Node.js applikationsfil er navn.js, så kan man kalde den ved at skrive: node navn.js.
 
