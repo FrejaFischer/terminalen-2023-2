@@ -1,5 +1,5 @@
 # terminalen-2023-2
-Vi skal skrive markdown
+Vi skal skrive markdown (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 https://astro.build 
 
