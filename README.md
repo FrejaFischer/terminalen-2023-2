@@ -14,7 +14,7 @@ ol
 
 variabler ryger i `backticks` 
 
-```
+```bash
 npm install
 npm run dev
 ```
